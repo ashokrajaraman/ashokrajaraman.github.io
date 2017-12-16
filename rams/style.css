@@ -193,6 +193,7 @@ body a {
 	left: 0;
 	bottom: 0;
 	right: 10px;
+    border-right: 3px solid black;
 }
 
 .wrapper { margin: 0px 0 0 300px; }
@@ -203,10 +204,27 @@ body a {
 	margin: 0 auto;
 }
 */
+hr.vertical
+{
+       width: 0px;
+          height: 100%; /* or height in PX */
+} 
+/*.verticalLine {
+    border-left: thick-solid #000000;
+}*/
+div.vertical-line{
+          width: 1px; /* Line width */
+          background-color: black; /* Line color */
+          height: 100%; /* Override in-line if you want specific height. */
+          float: left; /* Causes the line to float to left of content. 
+          You can instead use position:absolute or display:inline-block
+          if this fits better with your design */
+}
 
 /* Sections --------------------------------------- */
 
 
+.bg-white {background: #ffffff; }
 .bg-light { background: #fafafa; }
 .bg-dark { background: #999; }
 .bg-mint { background: #6AA897; }
@@ -247,6 +265,7 @@ body a {
 }
 
 .blog-title:after {
+    border-top: 3px solid #E65C00;
 	content: "";
 	display: block;
 	width: 100%;
