@@ -303,7 +303,12 @@ div.vertical-line{
 .main-menu a:hover,
 .main-menu .current_menu_item > a,
 .main-menu .current_page_item > a { color: #E65C00;/*#c93037;*/ }
-
+.main-menu a:focus,
+.main-menu .current_menu_item > a,
+.main-menu .current_page_item > a { border-bottom-color: #6AA897; }
+.main-menu a:visited,
+.main-menu .current_menu_item > a,
+.main-menu .current_page_item > a { border-bottom-color: #6AA897; }
 
 /* Credits --------------------------------------- */
 
