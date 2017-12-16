@@ -89,7 +89,7 @@ body {
 	border: none;
 	color: #333;
 	background: #ffffff;
-	font-family: 'FiraSans-Regular', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
 	-webkit-text-size-adjust: 100%;
 	position: absolute;
@@ -675,7 +675,7 @@ a.post-quote:hover {
 
 
 .post-content {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 /*	font-family: 'Crimson Text', 'Times New Roman', 'Times', serif;*/
 	font-size: 16px;
 	color: #444;
@@ -749,7 +749,7 @@ a.post-quote:hover {
 	content: '”';
 	display: block;
 	width: 90px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 /*	font-family: 'Georgia', 'Times New Roman', serif;*/
 	font-size: 72px;
 	line-height: 72px;
